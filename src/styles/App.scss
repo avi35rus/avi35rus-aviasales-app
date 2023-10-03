@@ -33,6 +33,7 @@ body {
 @media (max-width: 768px) {
 	.App {
 		grid-template-columns: 100%;
+		padding: 0 10px 25px 10px;
 		max-width: none;
 	}
 
