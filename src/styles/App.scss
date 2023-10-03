@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #F3F7FA;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	color: #4A4A4A;
+	font-family: 'Open Sans';
+}
+
+.App {
+	display: grid;
+	grid-template-columns: calc(32% - 10px) calc(68% - 10px);
+	gap: 0 20px;
+	max-width: 794px;
+	margin: 0 auto;
+	padding: 0 20px 50px 20px;
+}
+
+.content-container {
+	display: flex;
+	gap: 20px;
+	flex-direction: column;
+}
+
+@media (max-width: 768px) {
+	.App {
+		grid-template-columns: 100%;
+		max-width: none;
+	}
+
+	.logo {
+		grid-column: span 1;
+		margin: 24px auto;
+	}
+}

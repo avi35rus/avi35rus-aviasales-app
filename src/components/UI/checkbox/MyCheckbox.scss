@@ -1,0 +1,41 @@
+.myCheckbox {
+	cursor: pointer;
+	position: relative;
+	display: flex;
+	align-items: center;
+	font-size: 13px;
+	
+	input[type="checkbox"] {
+		display: none;
+
+		&:hover ~ .newCheckmark {
+			border: 1px solid #2196F3;
+		}
+
+		&:checked ~ .newCheckmark {
+			border: 1px solid #2196F3;
+	
+			&:after {
+				content: '';
+				display: block;
+				width: 5px;
+				height: 10px;
+				border: 1px solid #2196F3;
+				border-width: 0 2px 2px 0;
+				transform: rotate(45deg);
+			}
+		}
+	}
+
+	.newCheckmark {
+		display: flex;
+		justify-content: center;
+		flex-shrink: 0;
+		height: 20px;
+		width: 20px;
+		border: 1px solid #9ABBCE;
+		border-radius: 2px;
+		margin-right: 10px;
+		padding-top: 1px;
+	}
+}

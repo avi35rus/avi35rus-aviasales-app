@@ -1,0 +1,24 @@
+.showMoreButton {
+	text-align: center;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+
+	button {
+		background-color: #2196F3;
+		color: #fff;
+		padding: 15px;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		transition: background-color 0.3s ease;
+		width: 100%;
+		text-transform: uppercase;
+
+		&:hover {
+			background-color: #0274cc;
+		}
+	}
+}
