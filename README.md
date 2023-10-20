@@ -1,2 +1,2 @@
 Ссылка на развернутое приложение:
-<br/>https://aviasales-2wzeoypsz-avi35rus.vercel.app
+<br/>https://blog-l34wiod62-avi35rus.vercel.app
